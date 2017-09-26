@@ -6,21 +6,16 @@
     ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
+RESTFUL ROUTES
 
-To get you started, we included a small hello world application.
+name        url                     verb        desc.
+===================================================================================
+INDEX       /campgrounds                    GET     Display a list of all campgrounds
+NEW         /campgrounds/new                GET     Displays form to make a new campground
+CREATE      /campgrounds                    POST    Add new campground to DB
+SHOW        /campgrounds/:id                GET     Shows info about one campground
 
-1) Open the hello-world.html file
-
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
+NEW         /campgrounds/:id/comments/new   GET     Displays a form to make a new comment
+CREATE      /campgrounds/:id/comments       POST    Add new comment to DB
 
 
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
